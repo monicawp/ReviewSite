@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+div.container.body-content div.jumbotron {
+   background-image: url('images/beach.jpeg');
+}

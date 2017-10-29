@@ -91,3 +91,7 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\obj\Debug\ReviewSite.csprojResolveAssemblyReference.cache
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\obj\Debug\ReviewSite.dll
 c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\obj\Debug\ReviewSite.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\bin\EntityFramework.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\bin\EntityFramework.SqlServer.dll
+c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\bin\EntityFramework.xml
+c:\users\wecancodeit\documents\visual studio 2015\Projects\ReviewSite\ReviewSite\bin\EntityFramework.SqlServer.xml
