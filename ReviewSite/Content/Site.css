@@ -22,7 +22,35 @@ select,
 textarea {
     max-width: 280px;
 }
-
-div.container.body-content div.jumbotron {
-   background-image: url('images/beach.jpeg');
+/* main home page photo*/
+html body div.container.body-content div.jumbotron {
+    background-image: url('images/beach.jpeg');
+    background-size:cover;
+    font-family: 'Homemade Apple', cursive;
 }
+div.container.body-content div.jumbotron p a.btn.btn-primary.btn-lg {
+    font-family: 'Sedgwick Ave', cursive;
+}
+div.container.body-content div.row div.col-md-6 h2 {
+      font-family: 'Homemade Apple', cursive;
+}
+div.container.body-content div.row div.col-md-6 {
+     font-family: 'Sedgwick Ave', cursive;
+}
+
+div.container.body-content h2 {
+      font-family: 'Homemade Apple', cursive;
+}
+div.container.body-content form div.form-horizontal h4 {
+     font-family: 'Sedgwick Ave', cursive;
+}
+div.container.body-content div.row div.col-sm-6.col-md-4 div.thumbnail {
+     font-family: 'Sedgwick Ave', cursive;
+}
+
+div.jumbotron p {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: medium;
+    color: white;
+}
+

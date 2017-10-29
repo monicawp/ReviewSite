@@ -6,44 +6,74 @@
 
 <h2>Details</h2>
 
+@* example 
+    DisplayNameFor: Category
+    DisplayFor: Beach
+    *@
+
+
 <div>
     <h4>Review</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </dt>
+    <div class="row">
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.Name)
-        </dd>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3>@Html.DisplayFor(model => model.Location)</h3>
+                    <p>@Html.DisplayFor(model => model.VacationDate)</p>
+                    <p>@Html.DisplayNameFor(model => model.Category.Name): @Html.DisplayFor(model => model.Category.Name) </p>
+                    <p> @Html.DisplayNameFor(model => model.Details) : @Html.DisplayFor(model => model.Details) </p>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Location)
-        </dt>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <dd>
-            @Html.DisplayFor(model => model.Location)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Details)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Details)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.VacationDate)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.VacationDate)
-        </dd>
-
-    </dl>
 </div>
+
+
+
+
+
+
+@*
+    copy and paste where needed
+    <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Category.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Category.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Location)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Location)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Details)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Details)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.VacationDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.VacationDate)
+            </dd>
+
+        </dl>
+    </div>*@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
     @Html.ActionLink("Back to List", "Index")

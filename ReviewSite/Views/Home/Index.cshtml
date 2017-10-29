@@ -1,25 +1,40 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+ 
+@* DO NOT TOUCH CONTROLLERS AFTER YOU SCAFOLLED UNLESS YOU HAVE ENABLED MIGRATIONS AND ADD THEM*@
+
+
 
 <div class="jumbotron">
-    <h1>MONICA'S LIST</h1>
+    <h1>Monica's List</h1>
     <h4>Vacation Location Review Site</h4>
+    <p>
+        Monica's List is a great way to hear what people 
+        just like you think about the most talked about vacation spots!
+        Way better than Yelp and way better than Angie's list. 
+        Please let us know how your vacation expierence was by creating your own by
+        clicking the button below!
+    </p>
     <p><a href="http://localhost:61719/Reviews/Create" class="btn btn-primary btn-lg">Create a Review!</a></p>
 </div>
 
+
+@*copy each individual class URL to make buttons on home screen responsive*@
 <div class="row">
     <div class="col-md-6">
-        <h2>About Us</h2>
+        <h2>See Your Past Reviews</h2>
         <p>
-            Monica's List is a great way to hear what people just like you think about the most talked about vacation spots!
-            Way better than Yelp and way better than Angie's list. Please let us know how your vacation expierence was by creating your own review above!
+           Click here to view or edit your past reviews. We thank you for taking the time to contribute to the best vacation review site around!
         </p>
-        <p><a class="btn btn-default" href="#">Learn More</a></p>
+        <p><a class="btn btn-default" href="http://localhost:61719/Reviews/Index">Learn More</a></p>
     </div>
     <div class="col-md-6">
-        <h2>Top Rated Locations</h2>
-        <p>Click below to see hundreds of vacation spots for a fun, relating vacation!</p>
-        <p><a class="btn btn-default" href="#">Learn More</a></p>
+        <h2>Choose Your Category To Review</h2>
+        <p>
+            Tell us what you specifaclly liked best about your vacation spot. Choose categories like the pool, beach, activities, restaurants, etc.
+            This way people like you will know not only exactly where to go, but the best things to do there!
+        </p>
+        <p><a class="btn btn-default" href="http://localhost:61719/Categories/Index">Learn More</a></p>
     </div>
 </div>
